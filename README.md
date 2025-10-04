@@ -1,7 +1,7 @@
 
-# Telco Customer Churn Prediction 📉
+# Telco Customer Churn Prediction 
 
-## 🧩 Project Overview
+## Project Overview
 This project analyzes the Telco Customer Churn dataset from Kaggle to identify factors influencing customer churn and to build predictive models to help the business retain customers.
 
 ## 🎯 Objective
@@ -41,16 +41,16 @@ This project aims to identify key reasons for customer churn based on account ch
 
 > Top churn drivers: short tenure, high monthly charges, and month-to-month contracts.
 
-## 💡 Business Recommendations
+## Business Recommendations
 - xxxx xxxxx xxxxx
 - xxxx xxxxx xxxxx
 - xxxx xxxxx xxxxx  
 
-## 🧰 Tech Stack
+## Tech Stack
 - Python (Pandas, NumPy, Scikit-learn, XGBoost)
 - Matplotlib, Seaborn for EDA
 - Google Colab for experimentation
 - GitHub for version control
 
-## 📁 Project Structure
+## Project Structure
 under construction
