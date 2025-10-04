@@ -42,9 +42,9 @@ This project aims to identify key reasons for customer churn based on account ch
 > Top churn drivers: short tenure, high monthly charges, and month-to-month contracts.
 
 ## 💡 Business Recommendations
-- Offer loyalty incentives for long-term contracts  
-- Provide discounts for high-churn-risk customer groups  
-- Focus retention campaigns on fiber optic internet customers  
+- xxxx xxxxx xxxxx
+- xxxx xxxxx xxxxx
+- xxxx xxxxx xxxxx  
 
 ## 🧰 Tech Stack
 - Python (Pandas, NumPy, Scikit-learn, XGBoost)
@@ -53,3 +53,4 @@ This project aims to identify key reasons for customer churn based on account ch
 - GitHub for version control
 
 ## 📁 Project Structure
+under construction
