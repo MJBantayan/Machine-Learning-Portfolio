@@ -35,9 +35,9 @@ This project aims to identify key reasons for customer churn based on account ch
 ## 📈 Results
 | Model | ROC-AUC | Accuracy |
 |--------|----------|-----------|
-| Logistic Regression | 0.81 | 80% |
-| Random Forest | 0.84 | 82% |
-| -- | **--** | **83%** |
+| Logistic Regression | 0.xx | xx% |
+| Random Forest | 0.xx | xx% |
+| -- | **--** | **xx%** |
 
 > Top churn drivers: short tenure, high monthly charges, and month-to-month contracts.
 
