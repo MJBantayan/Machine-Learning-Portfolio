@@ -25,32 +25,57 @@ This project aims to identify key reasons for customer churn based on account ch
 - **Features:** 21 (both categorical and numerical)
 - **Target:** `Churn` (Yes / No)
 
-## ⚙️ Steps Performed
+## ⚙️ Workflow
 1. **Data Cleaning** – handled missing values, encoded categorical features  
-2. **Exploratory Data Analysis (EDA)** – churn rate visualization, feature correlations  
+2. **Exploratory Data Analysis (EDA)** – churn rate visualization, feature correlations, statistical validation  
 3. **Modeling** – Logistic Regression, Random Forest, XGBoost  
 4. **Evaluation** – compared models using accuracy, F1-score, ROC-AUC  
 5. **Insights** – identified high-risk churn segments  
 
-## 📈 Results
-| Model | ROC-AUC | Accuracy |
-|--------|----------|-----------|
-| Logistic Regression | 0.xx | xx% |
-| Random Forest | 0.xx | xx% |
-| -- | **--** | **xx%** |
+## 📈 Model Performance
+| Model               |  Accuracy  |   ROC-AUC  |
+| :------------------ | :--------: | :--------: |
+| Logistic Regression | **0.8031** | **0.8362** |
+| Random Forest       |   0.7854   |   0.8217   |
+| XGBoost             |   0.7783   |   0.8196   |
 
-> Top churn drivers: short tenure, high monthly charges, and month-to-month contracts.
+Best model: Logistic Regression (highest accuracy and ROC-AUC)
+
+## **Key EDA Findings**
+
+1. **Total Charges and Tenure**:
+Total charges rise as tenure increases. Customers with longer tenure tend to have more services, which raises their total charges.
+
+2. **Demographic Data**:
+**Gender** has no noticeable effect on churn. Churn rates for males and females are almost identical.
+**Partner and Dependents**:
+Customers with partners or dependents are slightly less likely to churn, possibly due to shared service needs.
+
+3. **Service-Related Features**:
+  **Fiber optic** internt users have the highest churn.
+  Customers **without** add-on services (*security, backup, tech support*) churn more often.
+
+4. **Contract and Billing**:
+  **Month-to-month** contracts show the highest churn.
+  **Electronic check payments** are linked to higher churn.
+  **Automatic payment methods** show better retention.
+
+5. **Tenure**:
+Customers with shorter tenure churn more. Retention improves significantly as tenure increases.
 
 ## Business Recommendations
-- xxxx xxxxx xxxxx
-- xxxx xxxxx xxxxx
-- xxxx xxxxx xxxxx  
+| Insight                                      | Business Action                                        |
+| -------------------------------------------- | ------------------------------------------------------ |
+| Short-tenure customers are at highest risk   | Create onboarding retention offers for new customers   |
+| Month-to-month contracts churn more          | Promote one-year and two-year plans with discounts     |
+| Electronic check users churn the most        | Encourage automatic payment enrollment                 |
+| Customers without add-on services churn more | Bundle support and protection services into promotions |
+| Fiber optic users churn frequently           | Investigate service quality or pricing competitiveness |
+
 
 ## Tech Stack
 - Python (Pandas, NumPy, Scikit-learn, XGBoost)
-- Matplotlib, Seaborn for EDA
-- Google Colab for experimentation
+- Matplotlib, Seaborn, Scipy for EDA
+- Google Colab 
 - GitHub for version control
 
-## Project Structure
-under construction
