@@ -15,6 +15,10 @@
     05_XGBoost_CreditRisk
 
 This repository is under construction and will be updated momentarily.
+---
+
+note to self: 
+    remove the business insights header in the telco_churn notebook
 
 ---
 🐱
