@@ -1,4 +1,4 @@
-**Linear Regression for Housing Prices Prediction**
+# **Linear Regression for Housing Prices Prediction**
 
 [Project Ongoing. Will be updated momentarily...]
 
