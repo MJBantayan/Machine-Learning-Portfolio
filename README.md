@@ -4,21 +4,19 @@
 
 ## This repository will contain the following projects: 
 
-    01_LogisticRegresion_Churn
+    01_LinearRegression
     
     02_KNN_HeartDisease
     
     03_RandomForest_Bankmarketing
     
     04_LinearRegression
+
+    ...and others
     
-    05_XGBoost_CreditRisk
 
-This repository is under construction and will be updated momentarily.
----
-
-note to self: 
-    remove the business insights header in the telco_churn notebook
+This repository is under construction and will be updated regularly. I am planning to add more projects and use more types of machine learning models.
 
 ---
+
 🐱
