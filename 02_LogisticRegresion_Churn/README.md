@@ -4,7 +4,7 @@
 ## Project Overview
 This project analyzes the Telco Customer Churn dataset from Kaggle to identify factors influencing customer churn and to build predictive models to help the business retain customers.
 
-## 🎯 Objective
+## Objective
 To predict whether a customer will churn based on demographic, account, and service-related features.
 
 ---
@@ -19,7 +19,7 @@ This project aims to identify key reasons for customer churn based on account ch
 
 
 
-## 🗂️ Dataset
+## Dataset
 - **Source:** [Kaggle - Telco Customer Churn](https://www.kaggle.com/blastchar/telco-customer-churn)
 - **Rows:** 7,043
 - **Features:** 21 (both categorical and numerical)
