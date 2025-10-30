@@ -25,14 +25,14 @@ This project aims to identify key reasons for customer churn based on account ch
 - **Features:** 21 (both categorical and numerical)
 - **Target:** `Churn` (Yes / No)
 
-## ⚙️ Workflow
+## Workflow
 1. **Data Cleaning** – handled missing values, encoded categorical features  
 2. **Exploratory Data Analysis (EDA)** – churn rate visualization, feature correlations, statistical validation  
 3. **Modeling** – Logistic Regression, Random Forest, XGBoost  
 4. **Evaluation** – compared models using accuracy, F1-score, ROC-AUC  
 5. **Insights** – identified high-risk churn segments  
 
-## 📈 Model Performance
+## Model Performance
 | Model               |  Accuracy  |   ROC-AUC  |
 | :------------------ | :--------: | :--------: |
 | Logistic Regression | **0.8031** | **0.8362** |
@@ -71,11 +71,3 @@ Customers with shorter tenure churn more. Retention improves significantly as te
 | Electronic check users churn the most        | Encourage automatic payment enrollment                 |
 | Customers without add-on services churn more | Bundle support and protection services into promotions |
 | Fiber optic users churn frequently           | Investigate service quality or pricing competitiveness |
-
-
-## Tech Stack
-- Python (Pandas, NumPy, Scikit-learn, XGBoost)
-- Matplotlib, Seaborn, Scipy for EDA
-- Google Colab 
-- GitHub for version control
-
