@@ -18,5 +18,3 @@
 This repository is under construction and will be updated regularly. I am planning to add more projects and use more types of machine learning models.
 
 ---
-
-🐱
