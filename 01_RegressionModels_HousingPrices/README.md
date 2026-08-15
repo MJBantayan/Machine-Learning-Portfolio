@@ -18,7 +18,7 @@
 
 The dataset used in this project is the Ames Housing dataset which was compiled by Dean De Cock. The version used here is downloaded from the [Kaggle House Prices - Advanced Regression](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview) competition page.
 
-##Repository Structure
+## Repository Structure
 
 ```
 ├── data/
