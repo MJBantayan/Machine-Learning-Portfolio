@@ -18,6 +18,27 @@
 
 The dataset used in this project is the Ames Housing dataset which was compiled by Dean De Cock. The version used here is downloaded from the [Kaggle House Prices - Advanced Regression](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview) competition page.
 
+```
+├── data/
+│   ├── raw/
+│   │   ├── train.csv
+│   │   ├── test.csv
+│   │   └── data_description.txt
+│   └── processed/
+│       ├── housing_train_cleaned.csv
+│       └── housing_train_featured.csv
+├── models/
+│   ├── preprocessor.joblib
+│   ├── pipeline.joblib
+│   └── linear_model_pipeline.joblib
+├── notebooks/
+│   ├── 01_Project_Initiation_DataCleaning.ipynb
+│   ├── 02_EDA_and_BaselineRegression.ipynb
+│   ├── 03_FeatureEngineering_LinearModelOptimization.ipynb
+│   ├── 04_Regularization_EnsembleModels.ipynb
+│   └── 05_ModelEvaluation_and_TestPredictions.ipynb
+└── README.md
+```
 
 ## Notebooks Overview
 
@@ -86,5 +107,6 @@ The dataset used in this project is the Ames Housing dataset which was compiled 
 ---
 
 Next up: testing ensemble models and fine tuning to see how far we can push model performance
-```
+
+---
 
