@@ -13,13 +13,13 @@
 
 ## This repository will contain the following projects: 
 
-    01_LinearRegression
+    01_RegressionModels_HousingPrices
     
-    02_KNN_HeartDisease
+    02_LogisticRegresion_Churn
+
+    03_KNN_HeartDisease
     
-    03_RandomForest_Bankmarketing
-    
-    04_LinearRegression
+    04_RandomForest_Bankmarketing
 
     ...and others
     
